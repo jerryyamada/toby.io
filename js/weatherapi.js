@@ -1,5 +1,5 @@
 const apiURL =
-'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7902395e981f096d6e1c661d78975faa'
+'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=faa'
 
   /* Preston ID id=5604473 */
 
