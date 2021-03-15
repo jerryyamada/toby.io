@@ -6,86 +6,56 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>toby.io</title>
-   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body onload="getLastUpdateDate()">
-   <div class="main">
-      <nav class="navigation">
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-         </ul>
-      </nav>
-   </div>
-   <p>&#128204;</p>
 
-   <style>
-      table,
-      td,
-      th {
-         border: 1px solid black;
+<body>
+   <h1>This is a javascript object test</h1>
+
+   <main>
+              <h1>OpenWeatherMap.org API Test</h1>
+
+        <div> 
+        <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+        <hr>
+        <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+
+
+        <!--
+      <p id="demo1"></p>
+      <p id="demo2"></p>
+        -->
+   </main>
+
+
+
+
+       <script src="js/weatherapi.js"></script>
+
+<!--
+   <script>
+
+      function contact(name, number) {
+         this.name = name;
+         this.number = number;
+         this.print = this.name + " " + this.number;
       }
 
-      table {
-         width: 30%;
-         border-collapse: collapse;
+      var a = new contact("David", 12345);
+      var b = new contact("Amy", 987654321)
+
+      a.print = function() {
+         return this.name + " " + this.number
       }
-   </style>
+      b.print = function() {
+         return this.name + " " + this.number
+      }
 
+      console.log(a.print());
+      console.log(b.print());
 
-   <table>
-
-      <thead>
-         <tr>
-            <th colspan="3">ACME Wildwest</th>
-         </tr>
-      </thead>
-      <thead>
-         <tr>
-            <th>Period</th>
-            <th>Sales</th>
-            <th>Sales Goal</th>
-         </tr>
-      </thead>
-
-      <tbody>
-         <tr>
-            <td>January</td>
-            <td>$100</td>
-            <td>$200</td>
-         </tr>
-         <tr>
-            <td>February</td>
-            <td>$80</td>
-            <td>$90</td>
-         </tr>
-      </tbody>
-
-      <tfoot>
-         <tr>
-            <td colspan="3">Completed 12 20 12 by Anaf Seprq</td>
-         </tr>
-      </tfoot>
-
-   </table>
-
-<form action="hello.html">
-   Name: <input type="text" name="first" >
-   <input type="submit" value="Submit">
-</form>
-
-<form action="/action_page.php">
-   <label for="fname">First name:</label><br>
-   <input type="text" id="fname" name="fname" value="John"><br>
-   <label for="lname">Last name:</label><br>
-   <input type="text" id="lname" name="lname" value="Doe"><br><br>
-   <input type="submit" value="Submit">
- </form> 
+   </script>
+-->
 
 </body>
 
