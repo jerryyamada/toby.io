@@ -1,16 +1,16 @@
 let cityID_w = 5604473;  /* Preston ID id=5604473 */
-let appid_w = 'fab78e362767aed9fac976cb8465e914';
+let appid_w = '00000000000000000000000000000000000';
 
 /* 'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_w}&units=imperial&appid=${appid_w}';   */
 
-const apiURL_w = '/js/weather.json'
+const apiURL_w = 'js/weather.json'
 
   /* Preston ID id=5604473 */
 
 fetch(apiURL_w)
   .then(response => response.json())
   .then(jsObject => {
-    console.log(jsObject)
+    // console.log(jsObject)
 
     document.getElementById('current-temp').textContent = jsObject.main.temp
 
