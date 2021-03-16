@@ -1,9 +1,14 @@
-const apiURL =
-'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=faa'
+let cityID_w = 5604473;  /* Preston ID id=5604473 */
+let appid_w = 'cf6255e7d3643d472202cab287a3b281';
+appid_w = 'cf6255e7d3643d472202cab287a3b281';
+appid_w = '7902395e981f096d6e1c661d78975faa';
+
+const apiURL_w =
+'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_w}&units=imperial&appid=${appid_w}';
 
   /* Preston ID id=5604473 */
 
-fetch(apiURL)
+fetch(apiURL_w)
   .then(response => response.json())
   .then(jsObject => {
     console.log(jsObject)
