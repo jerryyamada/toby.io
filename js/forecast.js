@@ -1,12 +1,9 @@
-let cityID_f = 5604473 /* Preston ID id=5604473 */
-let appid_f = '00000000000000000000000'
+let cityID_f = 5604473 /* Preston ID id=5604473 Soda Springs ID id=5607916 Fish Haven ID id=unknown  Bear Lake Sands ID id=5585010*/
+let appid_f = '7902395e981f096d6e1c661d78975faa'
 
-/*
-const apiURL_f =
-'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}';
-*/
 
-const apiURL_f = 'js/forecast.json'
+// const apiURL_f = 'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}';
+   const apiURL_f = 'js/forecast.json'
 
 fetch(apiURL_f)
   .then(function (response) {

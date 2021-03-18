@@ -1,8 +1,9 @@
 let cityID_w = 5604473;  /* Preston ID id=5604473 */
-let appid_w = '00000000000000000000000000000000000';
+let appid_w = '7902395e981f096d6e1c661d78975faa';
 
-/* 'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_w}&units=imperial&appid=${appid_w}';   */
+// const apiURL_w = 'https://api.openweathermap.org/data/2.5/weather?id=${cityID_w}&units=imperial&appid=${appid_w}';  
 
+// https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7902395e981f096d6e1c661d78975faa
 const apiURL_w = 'js/weather.json'
 
   /* Preston ID id=5604473 */
